@@ -1,17 +1,17 @@
-const app = angular.module('prepApp', ['ngRoute']);
+let app = angular.module('app', ['ngRoute'])
+
 app.config(function($routeProvider){
     $routeProvider
-        .when('/', {
-            templateUrl: '/partials/index.html',
-            controller: 'indexC',
-            controllerAs: 'iC'
-        })
-        .when('/dash', {
-            templateUrl: '/partials/dash.html',
-            controller: 'dashC',
-            controllerAs: 'hC'
-        })
-        .otherwise({
-            redirectTo: '/'
-        })
+    .when('/dash', {
+        templateUrl: 'partials/dash.html'
+    })
+    .when('/new', {
+        templateUrl: 'partials/new.html'
+    })
+    .when('/edit', {
+        templateUrl: 'partials/edit.html'
+    })
+    .otherwise({
+        redirectTo: '/dash'
+    })
 })
