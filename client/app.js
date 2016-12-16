@@ -1,6 +1,5 @@
-let app = angular.module('app', ['ngRoute'])
-
-app.config(function($routeProvider){
+const app = angular.module('app', ['ngRoute'])
+.config(function($routeProvider){
     $routeProvider
     .when('/dash', {
         templateUrl: 'partials/dash.html'
