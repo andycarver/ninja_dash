@@ -1,0 +1,26 @@
+{
+  "name": "_s",
+  "version": "0.2.0",
+  "description": "Pythonic array slicing in JavaScript",
+  "keywords": [
+    "python",
+    "splice",
+    "slice",
+    "array"
+  ],
+  "homepage": "https://github.com/usablica/_s",
+  "author": "Afshin Mehrabani",
+  "main": [
+    "_s.js"
+  ],
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "349bee263444b347cbec1039cbdbc216875553bf"
+  },
+  "_source": "https://github.com/usablica/_s.git",
+  "_target": "^0.2.0",
+  "_originalSource": "_s",
+  "_direct": true
+}
